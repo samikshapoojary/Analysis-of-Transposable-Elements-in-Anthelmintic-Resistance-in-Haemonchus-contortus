@@ -79,11 +79,9 @@ The project used the following genome assemblies and sequence datasets:
 | *Caenorhabditis elegans* | PRJNA13758 (WBPS19) | WormBase ParaSite |
 
 **Sequencing data:**
-- 9 pooled genomic samples (Pool-seq)  
-- RNA-seq FASTQ files (not analysed in final thesis)
-- Pooled whole-genome sequencing (Pool-seq) data and RNA-seq datasets for control, ivermectin-resistant, and moxidectin-resistant Haemonchus contortus populations were obtained from the Centre for Genomic Research (CGR), University of Liverpool:
-[Pool-seq](https://cgr.liv.ac.uk/illum/LIMS28593_fbc6c22b786c7600/) 
-[RNA-seq](https://cgr.liv.ac.uk/illum/LIMS30731_cb27564db3511460/)
+- 9 Pooled whole-genome sequencing (Pool-seq) data and RNA-seq datasets (not analysed in final thesis) for control, ivermectin-resistant, and moxidectin-resistant Haemonchus contortus populations were obtained from the Centre for Genomic Research (CGR), University of Liverpool:
+- [Pool-seq](https://cgr.liv.ac.uk/illum/LIMS28593_fbc6c22b786c7600/) 
+- [RNA-seq](https://cgr.liv.ac.uk/illum/LIMS30731_cb27564db3511460/)
 
 ---
 
@@ -105,6 +103,4 @@ Run `master_r_script.R` section by section in R or RStudio for data parsing, vis
 - It is recommended to execute each section separately rather than running the entire master file at once.  
 - Data files (e.g. FASTQ, BAM, and intermediate results) are **not included** due to size constraints.
 
-
-GitHub: [https://github.com/YOURUSERNAME](https://github.com/YOURUSERNAME)
 
