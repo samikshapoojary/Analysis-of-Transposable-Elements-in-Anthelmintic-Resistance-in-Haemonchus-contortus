@@ -6,7 +6,7 @@
 
 ---
 
-## 📘 Overview
+## Overview
 
 This repository contains all scripts developed for the MSc Bioinformatics project *“Exploring the Role of Transposable Elements in Anthelmintic Resistance in Haemonchus contortus.”*  
 All code is provided for reproducibility and as reference material.
@@ -15,7 +15,7 @@ The project investigates transposable element (TE) dynamics and their potential 
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 ### **A. Master Scripts**
 
@@ -49,7 +49,7 @@ Contains RNA-seq analysis steps for:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ### **B.1. Software**
 - Bash environment (SLURM scheduler used for job submission)
@@ -68,7 +68,7 @@ Contains RNA-seq analysis steps for:
 - [HTSeq-count](https://d.docs.live.net/A7A1307BF1E6342B/Documents/htseq-count%20manual)  
 ---
 
-## 🧬 Input Data
+## Input Data
 
 The project used the following genome assemblies and sequence datasets:
 
@@ -85,7 +85,7 @@ The project used the following genome assemblies and sequence datasets:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### **Genome & TE Analysis (Bash)**
 Run `master_bash_script.sh`, executing each section corresponding to a specific analysis step (e.g., genome preparation, PoPoolationTE2 runs, feature overlap analysis).
@@ -93,11 +93,17 @@ Run `master_bash_script.sh`, executing each section corresponding to a specific 
 ### **R Analysis & Plotting**
 Run `master_r_script.R` section by section in R or RStudio for data parsing, visualization, and statistical analysis.
 
-> ⚠️ File paths within scripts are project-specific (e.g. `/Data3/samiksha/...`). Adjust paths according to your own environment before running.
+> File paths within scripts are project-specific (e.g. `/Data3/samiksha/...`). Adjust paths according to your own environment before running.
 
 ---
 
-## 🧾 Notes
+
+> ** PROJECT UPDATE (2026):** 
+> This analysis has been fully modernized and re-engineered into a scalable, containerized Nextflow pipeline. The Nextflow architecture automates the de novo TE annotation, Bowtie2 alignments, and PoPoolationTE2 genotyping across High-Performance Computing (HPC) clusters.
+> 
+> **[View the updated Nextflow Pipeline here](https://github.com/samikshapoojary/Nextflow-Analysis-of-Transposable-Elements-in-Anthelmintic-Resistance-in-Haemonchus-contortus)**
+
+## Notes
 
 - The master scripts are concatenated versions of all smaller scripts used in the project for convenience and assessment.  
 - It is recommended to execute each section separately rather than running the entire master file at once.  
