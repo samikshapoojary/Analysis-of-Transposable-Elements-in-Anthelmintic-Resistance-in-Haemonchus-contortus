@@ -98,10 +98,10 @@ Run `master_r_script.R` section by section in R or RStudio for data parsing, vis
 ---
 
 
-> ** PROJECT UPDATE (2026):** 
-> This analysis has been fully modernized and re-engineered into a scalable, containerized Nextflow pipeline. The Nextflow architecture automates the de novo TE annotation, Bowtie2 alignments, and PoPoolationTE2 genotyping across High-Performance Computing (HPC) clusters.
-> 
-> **[View the updated Nextflow Pipeline here](https://github.com/samikshapoojary/Nextflow-Analysis-of-Transposable-Elements-in-Anthelmintic-Resistance-in-Haemonchus-contortus)**
+ ** PROJECT UPDATE (2026):** 
+This analysis has been fully modernized and re-engineered into a scalable, containerized Nextflow pipeline. The Nextflow architecture automates the de novo TE annotation, Bowtie2 alignments, and PoPoolationTE2 genotyping across High-Performance Computing (HPC) clusters.
+
+**[View the updated Nextflow Pipeline here](https://github.com/samikshapoojary/Nextflow-Analysis-of-Transposable-Elements-in-Anthelmintic-Resistance-in-Haemonchus-contortus)**
 
 ## Notes
 
